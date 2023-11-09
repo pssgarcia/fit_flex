@@ -1,10 +1,10 @@
-import logo from "../assets/fit_flex.png"
+import logo from "../assets/fit_flex.svg"
 
 export function NavBar() {
 	return (
 		<nav className="flex justify-between items-center w-[95%]">
 			<figure>
-            <img src={logo} className="w-20 h-16" alt="logo" />
+            <img src={logo} className="h-16" alt="logo" />
          </figure>
 			<ul className="flex gap-x-5">
 				<li>

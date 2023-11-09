@@ -5,11 +5,16 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    colors: {
-      darkGold: '#D9A934',
-      lightGold: '#FFC63D',
-      grayBg: '#121218'
-    },
+    extend: {
+      colors: {
+        darkGold: '#D9A934',
+        lightGold: '#FFC63D',
+        grayBg: '#121218'
+      },
+      backgroundImage: {
+        headerBg: 'url("/src/assets/header-bg.jpg")',
+      }
+    }
   },
   plugins: [],
 }
