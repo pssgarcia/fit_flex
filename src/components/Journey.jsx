@@ -10,27 +10,27 @@ export function Journey() {
          <section className="flex gap-x-4">
             <aside className="flex flex-col gap-y-5">
                <figure>
-                  <img className="w-32 h-44" src={swimming} alt="swimming" />
+                  <img className="w-36 h-44" src={swimming} alt="swimming" />
                   <figcaption className="text-center bg-white p-3 text-sm">Swimming</figcaption>
                </figure>
                <figure>
-                  <img className="w-32 h-44" src={boxing} alt="boxing" />
+                  <img className="w-36 h-44" src={boxing} alt="boxing" />
                   <figcaption className="text-center bg-white p-3 text-sm">Boxing</figcaption>
                </figure>
             </aside>
             <aside className="flex flex-col justify-center">
                <figure>
-                  <img className="w-32 h-44" src={yoga} alt="yoga" />
+                  <img className="w-36 h-44" src={yoga} alt="yoga" />
                   <figcaption className="text-center bg-white p-3 text-sm">Yoga</figcaption>
                </figure>
             </aside>
             <aside className="flex flex-col gap-y-5">
                <figure>
-                  <img className="w-32 h-44" src={fitness} alt="fitness" />
+                  <img className="w-36 h-44" src={fitness} alt="fitness" />
                   <figcaption className="text-center bg-white p-3 text-sm">Fitness</figcaption>
                </figure>
                <figure>
-                  <img className="w-32 h-44" src={wellness} alt="wellness" />
+                  <img className="w-36 h-44" src={wellness} alt="wellness" />
                   <figcaption className="text-center bg-white p-3 text-sm">Wellness</figcaption>
                </figure>
             </aside>
