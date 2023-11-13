@@ -8,7 +8,7 @@ import court from "../assets/court.jpg";
 
 export function Amenities() {
 	return (
-		<section>
+		<section id="home">
 			<article>
 				<h2>Amenities</h2>
 				<p>

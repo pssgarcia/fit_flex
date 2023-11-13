@@ -1,5 +1,4 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
+import * as FaIcons from 'react-icons/fa';
 
 export function GetStartedCard({ activities, description }) {
 	return (
@@ -9,7 +8,7 @@ export function GetStartedCard({ activities, description }) {
 				<h3>{activities}</h3>
 				<p>{description}</p>
 				<button>
-					<FontAwesomeIcon icon={faArrowRight} />
+					<FaIcons.FaArrowRight />
 				</button>
 			</figcaption>
 		</figure>
