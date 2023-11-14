@@ -2,7 +2,7 @@ import * as FaIcons from "react-icons/fa";
 
 export function GetStartedCard({ activities, description, src, alt }) {
 	return (
-		<figure className="w-72">
+		<figure className="w-80">
 			<img className="w-full h-60" src={src} alt={alt} />
 			<figcaption className="flex p-3 flex-col gap-y-4 items-center bg-white">
 				<h3 className="font-bold text-xl">{activities}</h3>

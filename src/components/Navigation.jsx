@@ -20,7 +20,7 @@ export function Navigation() {
 				</a>
 				<span
 					onClick={toggleNavBar}
-					className="text-3xl text-white absolute cursor-pointer right-8 top-4 md:hidden"
+					className="text-3xl text-white absolute cursor-pointer right-6 top-4 md:hidden"
 				>
 					{open ? <FaIcons.FaTimes /> : <FaIcons.FaBars />}
 				</span>

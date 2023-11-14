@@ -8,17 +8,17 @@ import court from "../assets/court.jpg";
 
 export function Amenities() {
 	return (
-		<section id="home">
-			<article>
-				<h2>Amenities</h2>
-				<p>
+		<section className="bg-white py-10 flex flex-col gap-y-10" id="home">
+			<article className="flex flex-col items-center gap-y-5">
+				<h2 className="font-bold text-3xl">Amenities</h2>
+				<p className="w-80 text-center text-lg text-grayBg">
 					Modern design and comfortable, all-inclusive luxury. With our
 					extensive range of amenities, that includes sprawling outdoor
 					terraces, we offer a space unlike any other in Vancouver. You'll love
 					your time here.
 				</p>
 			</article>
-			<section className="flex flex-col items-center">
+			<section className="flex flex-col items-center gap-y-10">
 				<AmenitiesCard amenity={"Pool and Jacuzzy"} src={pool} />
 				<AmenitiesCard amenity={"Studios"} src={studios} />
 				<AmenitiesCard amenity={"Lounge and Cafe"} src={lounge} />

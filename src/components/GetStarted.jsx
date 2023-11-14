@@ -9,7 +9,7 @@ export function GetStarted() {
 	return (
 		<article>
 			<section className="bg-getStartedBg bg-no-repeat bg-center bg-cover h-96 text-white">
-				<section className="bg-[rgb(15,15,15,.40)] w-full h-full flex flex-col gap-9 items-center justify-center">
+				<section className="bg-[rgb(15,15,15,.40)] h-full mx-7 flex flex-col gap-9 items-start justify-center">
 					<h2 className="w-64 text-4xl font-bold">Start Today</h2>
 					<ul className="w-64 flex flex-col gap-y-4 text-xl">
 						<li className="flex items-center gap-x-3">
