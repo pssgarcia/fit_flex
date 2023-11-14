@@ -1,14 +1,14 @@
-import * as FaIcons from 'react-icons/fa';
+import * as FaIcons from "react-icons/fa";
 
-export function GetStartedCard({ activities, description }) {
+export function GetStartedCard({ activities, description, src, alt }) {
 	return (
-		<figure>
-			<img src="" alt="" />
-			<figcaption>
-				<h3>{activities}</h3>
-				<p>{description}</p>
-				<button>
-					<FaIcons.FaArrowRight />
+		<figure className="w-72">
+			<img className="w-full h-60" src={src} alt={alt} />
+			<figcaption className="flex p-3 flex-col gap-y-4 items-center bg-white">
+				<h3 className="font-bold text-xl">{activities}</h3>
+				<p className="text-center text-grayBg">{description}</p>
+				<button className="text-2xl hover:scale-125 duration-300">
+					<FaIcons.FaLongArrowAltRight />
 				</button>
 			</figcaption>
 		</figure>
