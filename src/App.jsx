@@ -4,6 +4,7 @@ import { Journey } from "./components/Journey";
 import { GetStarted } from "./components/GetStarted";
 import { Amenities } from "./components/Amenities";
 import { Contact } from "./components/Contact";
+import { Footer } from "./components/Footer";
 
 function App() {
 	return (
@@ -16,6 +17,7 @@ function App() {
 				<Amenities />
 				<Contact />
 			</main>
+			<Footer />
 		</>
 	);
 }

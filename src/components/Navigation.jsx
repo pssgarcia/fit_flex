@@ -1,7 +1,6 @@
 import { useState } from "react";
 import logo from "../assets/fit_flex.svg";
 import * as FaIcons from "react-icons/fa";
-// import { Link } from "react-router-dom";
 
 export function Navigation() {
 	const [open, setOpen] = useState(false);
