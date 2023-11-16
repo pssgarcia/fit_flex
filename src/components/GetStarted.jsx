@@ -10,8 +10,8 @@ export function GetStarted() {
 		<article id="getstarted">
 			<section className="bg-getStartedBg bg-no-repeat bg-center bg-cover h-96 text-white">
 				<section className="bg-[rgb(15,15,15,.40)] h-full mx-7 flex flex-col gap-9 items-start justify-center">
-					<h2 className="w-64 text-4xl font-bold">Start Today</h2>
-					<ul className="w-64 flex flex-col gap-y-4 text-xl">
+					<h2 className="w-64 text-4xl md:text-5xl md:w-full font-bold">Start Today</h2>
+					<ul className="w-64 md:w-full flex flex-col gap-y-4 text-xl md:text-2xl">
 						<li className="flex items-center gap-x-3">
 							<span className="text-lightGold">
 								<FaIcons.FaCheck />
@@ -31,16 +31,16 @@ export function GetStarted() {
 							<p>Your stress and tension</p>
 						</li>
 					</ul>
-					<button className="uppercase flex justify-start bg-lightGold p-3 mr-20 text-grayBg font-bold">
+					<button className="uppercase flex justify-start bg-lightGold p-3 mr-20 text-grayBg font-bold md:text-xl md:p-4 hover:bg-darkGold hover:text-white">
 						Get Started Now
 					</button>
 				</section>
 			</section>
 			<section className="bg-lightGold py-10">
 				<article className="flex justify-center pb-14">
-					<h2 className="text-center font-bold text-3xl w-72">Join now for just $15/month</h2>
+					<h2 className="text-center font-bold text-3xl md:text-5xl w-72 md:w-full">Join now for just $15/month</h2>
 				</article>
-				<article className="flex flex-col gap-y-10 items-center">
+				<article className="flex flex-col md:flex-row md:flex-wrap justify-center gap-6 items-center">
 					<GetStartedCard
 						src={jogging}
 						alt={"jogging"}

@@ -47,23 +47,23 @@ export function Navigation() {
 					<li className="my-7 md:my-0">
 						<a
 							href="#getstarted"
-							className="text-darkGold hover:text-lightGold"
+							className="text-darkGold hover:text-lightGold focus:border-b-2 border-lightGold"
 						>
 							Get Started
 						</a>
 					</li>
 					<li className="my-7 md:my-0">
-						<a href="#amenities" className="text-darkGold hover:text-lightGold">
+						<a href="#amenities" className="text-darkGold hover:text-lightGold focus:border-b-2 border-lightGold">
 							Amenities
 						</a>
 					</li>
 					<li className="my-7 md:my-0">
-						<a href="#stories" className="text-darkGold hover:text-lightGold">
+						<a href="#stories" className="text-darkGold hover:text-lightGold focus:border-b-2 border-lightGold">
 							Stories
 						</a>
 					</li>
 					<li className="my-7 md:my-0">
-						<a href="#contact" className="text-darkGold hover:text-lightGold">
+						<a href="#contact" className="text-darkGold hover:text-lightGold focus:border-b-2 border-lightGold">
 							Contact
 						</a>
 					</li>

@@ -7,9 +7,9 @@ import wellness from "../assets/wellness.jpg";
 
 export function Journey() {
 	return (
-		<section id="journey" className="flex flex-col gap-24 font-semibold bg-lightGold w-full justify-center py-10">
+		<section id="journey" className="flex flex-col gap-24 md:gap-32 font-semibold bg-lightGold w-full justify-center py-10">
 			<section className="flex flex-col gap-24">
-				<aside className="flex flex-col items-center gap-24">
+				<aside className="flex flex-col md:flex-row md:justify-center items-center gap-24">
 					<figure className="w-80 h-72">
 						<img className="w-full h-full" src={swimming} alt="swimming" />
 						<figcaption className="text-center bg-white p-5 text-lg">
@@ -23,7 +23,7 @@ export function Journey() {
 						</figcaption>
 					</figure>
 				</aside>
-				<aside className="flex flex-col items-center gap-24">
+				<aside className="flex flex-col md:flex-row md:justify-center items-center gap-24">
 					<figure className="w-80 h-72">
 						<img className="w-full h-full" src={yoga} alt="yoga" />
 						<figcaption className="text-center bg-white p-5 text-lg">
@@ -31,7 +31,7 @@ export function Journey() {
 						</figcaption>
 					</figure>
 				</aside>
-				<aside className="flex flex-col items-center gap-24">
+				<aside className="flex flex-col md:flex-row md:justify-center items-center gap-24">
 					<figure className="w-80 h-72">
 						<img className="w-full h-full" src={fitness} alt="fitness" />
 						<figcaption className="text-center bg-white p-5 text-lg">
@@ -46,9 +46,9 @@ export function Journey() {
 					</figure>
 				</aside>
 			</section>
-			<article className="w-80 flex flex-col items-center gap-y-8">
-				<h2 className="text-4xl font-bold">Fitness Journey</h2>
-				<JourneyOptions variety={"Endless Variety"} description={"Choose from more than 50 types of sports offerd by over 10000 partners."} />
+			<article className="w-80 md:w-full md:items-start md:pl-6 lg:ml-6 flex flex-col items-center gap-y-8">
+				<h2 className="text-4xl md:text-5xl font-bold">Fitness Journey</h2>
+				<JourneyOptions variety={"Endless Variety"} description={"Choose from more than 50 types of sports offered by over 10000 partners."} />
 				<JourneyOptions variety={"Discover something new"} description={"Sick of the same old? You'll never get bored with us. Discover new activities every day."} />
 				<JourneyOptions variety={"Combine activities"} description={"Like to switch things up? A multi-sport plan is the way to go."} />
 			</article>
