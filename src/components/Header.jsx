@@ -2,7 +2,7 @@ import logo from "../assets/fit_flex.svg"
 
 export function Header() {
    return (
-      <header className="bg-headerBg bg-no-repeat bg-cover w-full h-full mt-16">
+      <header id="#" className="bg-headerBg bg-no-repeat bg-cover w-full h-full mt-16">
          <section className="bg-[rgb(15,15,15,.40)] flex justify-center">
             <section className="flex flex-col items-center gap-y-6 text-white py-12">
                <figure>

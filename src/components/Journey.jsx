@@ -1,4 +1,4 @@
-import { JourneyOptions } from "../components/JourneyOptions";
+import { JourneyOptions } from "./JourneyOptions";
 import swimming from "../assets/swimming.jpg";
 import boxing from "../assets/boxing.jpg";
 import yoga from "../assets/yoga.jpg";
@@ -7,7 +7,7 @@ import wellness from "../assets/wellness.jpg";
 
 export function Journey() {
 	return (
-		<section className="flex flex-col gap-24 font-semibold bg-lightGold w-full justify-center py-10">
+		<section id="journey" className="flex flex-col gap-24 font-semibold bg-lightGold w-full justify-center py-10">
 			<section className="flex flex-col gap-24">
 				<aside className="flex flex-col items-center gap-24">
 					<figure className="w-80 h-72">

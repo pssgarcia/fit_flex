@@ -1,26 +1,20 @@
 import { Header } from "./components/Header";
 import { Navigation } from "./components/Navigation";
-import { Journey } from "./views/Journey";
+import { Journey } from "./components/Journey";
 import { GetStarted } from "./components/GetStarted";
 import { Amenities } from "./components/Amenities";
-// import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
+import { Contact } from "./components/Contact";
 
 function App() {
 	return (
 		<>
-      <Navigation />
-      <Header />
-			{/* <Router>	
-				<Switch>
-					<Route path='/' exact>
-            <Home />
-          </Route>
-				</Switch>
-			</Router> */}
+			<Navigation />
+			<Header />
 			<main className="w-full">
 				<Journey />
 				<GetStarted />
 				<Amenities />
+				<Contact />
 			</main>
 		</>
 	);

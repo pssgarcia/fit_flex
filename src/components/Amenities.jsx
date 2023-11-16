@@ -8,7 +8,7 @@ import court from "../assets/court.jpg";
 
 export function Amenities() {
 	return (
-		<section className="bg-white py-10 flex flex-col gap-y-10" id="home">
+		<section className="bg-white py-10 flex flex-col gap-y-10" id="amenities">
 			<article className="flex flex-col items-center gap-y-5">
 				<h2 className="font-bold text-3xl">Amenities</h2>
 				<p className="w-80 text-center text-lg text-grayBg">

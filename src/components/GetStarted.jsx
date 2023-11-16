@@ -7,7 +7,7 @@ import treadmill from "../assets/treadmill.jpg";
 
 export function GetStarted() {
 	return (
-		<article>
+		<article id="getstarted">
 			<section className="bg-getStartedBg bg-no-repeat bg-center bg-cover h-96 text-white">
 				<section className="bg-[rgb(15,15,15,.40)] h-full mx-7 flex flex-col gap-9 items-start justify-center">
 					<h2 className="w-64 text-4xl font-bold">Start Today</h2>
