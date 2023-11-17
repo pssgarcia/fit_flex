@@ -1,7 +1,7 @@
 export function Contact() {
 	return (
 		<section id="contact" className="bg-lightGold flex justify-center py-10">
-			<form className="bg-white w-[87%] md:w-full max-w-screen-md p-8 flex flex-col gap-y-5">
+			<form className="bg-white w-[85%] md:w-full max-w-screen-md p-8 flex flex-col gap-y-5">
 				<h2 className="text-center font-bold text-3xl md:text-5xl">
 					Contact Us
 				</h2>
@@ -11,10 +11,11 @@ export function Contact() {
 							Address:
 						</label>
 						<input
-							className="h-10 md:h-12 bg-gray-100 w-full border border-gray-400"
+							className="h-10 md:h-12 pl-2 bg-gray-100 w-full border border-gray-400"
 							type="text"
 							name="address"
 							id="address"
+							placeholder="Your address"
 						/>
 					</aside>
 					<aside className="flex flex-col gap-y-2 text-grayBg">
@@ -22,10 +23,11 @@ export function Contact() {
 							Name:
 						</label>
 						<input
-							className="h-10 md:h-12 bg-gray-100 w-full border border-gray-400"
+							className="h-10 md:h-12 pl-2 bg-gray-100 w-full border border-gray-400"
 							type="text"
 							name="name"
 							id="name"
+							placeholder="Your name"
 						/>
 					</aside>
 				</section>
@@ -35,10 +37,11 @@ export function Contact() {
 							Phone:
 						</label>
 						<input
-							className="h-10 md:h-12 bg-gray-100 w-full border border-gray-400"
+							className="h-10 md:h-12 pl-2 bg-gray-100 w-full border border-gray-400"
 							type="number"
 							name="phone"
 							id="phone"
+							placeholder="Your phone number"
 						/>
 					</aside>
 					<aside className="flex flex-col gap-y-2 text-grayBg">
@@ -46,7 +49,7 @@ export function Contact() {
 							Date:
 						</label>
 						<input
-							className="h-10 md:h-12 bg-gray-100 w-full border border-gray-400"
+							className="h-10 md:h-12 pl-2 bg-gray-100 w-full border border-gray-400"
 							type="date"
 							name="date"
 							id="date"
@@ -65,7 +68,7 @@ export function Contact() {
 				</aside>
 				<button
 					type="submit"
-					className="uppercase bg-grayBg text-white p-3 font-semibold tracking-wide md:text-xl"
+					className="uppercase bg-grayBg text-white hover:text-lightGold p-3 lg:p-4 font-semibold tracking-wide lg:tracking-wider md:text-xl"
 				>
 					Submit
 				</button>

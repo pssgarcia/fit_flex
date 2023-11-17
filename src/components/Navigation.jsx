@@ -11,9 +11,9 @@ export function Navigation() {
 
 	return (
 		<nav className="w-full shadow-md top-0 fixed left-0">
-			<section className="md:flex font-bold md:text-lg text-2xl py-2 px-7 md:px-9 justify-between items-center bg-grayBg">
+			<section className="md:flex font-bold md:text-lg text-2xl lg:h-24 py-2 px-7 justify-between items-center bg-grayBg">
 				<a href="#">
-					<figure className="w-12 flex items-center">
+					<figure className="w-12 lg:w-16 flex items-center">
 						<img src={logo} className="w-full" alt="logo" />
 					</figure>
 				</a>
@@ -26,7 +26,7 @@ export function Navigation() {
 				<ul
 					className={`md:flex md:ml-8 md:gap-x-8 md:items-center absolute md:static bg-grayBg w-full left-0 md:z-auto z-[-1] md:w-auto md:pl-0 pl-7 transition-all duration-500 ease-in ${
 						open ? "top-14 opacity-100" : "top-[-490px]"
-					}`}
+					} lg:text-2xl`}
 				>
 					<li className="my-7 md:my-0">
 						<a
@@ -57,11 +57,11 @@ export function Navigation() {
 							Amenities
 						</a>
 					</li>
-					<li className="my-7 md:my-0">
+					{/* <li className="my-7 md:my-0">
 						<a href="#stories" className="text-darkGold hover:text-lightGold focus:border-b-2 border-lightGold">
 							Stories
 						</a>
-					</li>
+					</li> */}
 					<li className="my-7 md:my-0">
 						<a href="#contact" className="text-darkGold hover:text-lightGold focus:border-b-2 border-lightGold">
 							Contact
